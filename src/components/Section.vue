@@ -48,12 +48,12 @@ export default {
     }
   },
   watch:{
-    point:function(){
+    point(){
       if(this.point==2){
         document.querySelector('#qetihucum').setAttribute("class","btn disabled")
       }
     },
-    point1:function(){
+    point1(){
       if(this.point1==7){
         document.querySelector('#hucum').setAttribute("class","btn disabled")
       }
